@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Video Digest Report</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Jumbotron CSS -->
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="jumbotron intro">
+        
+        <div class="row">
+        
+          <div class="col-md-7">
+            <p class="title">Smartphone Voice Commands</p>
+            <p class="subtitle">Siri, Google Now, and Cortana</p>
+          </div>
+        
+          <div class="col-md-3 border-left">
+            <p class="credits">
+              UserTesting 
+              <br>
+              Ram Dixit
+            </p>
+          </div>
+      </div>
+    </div>
+
+    <div class="jumbotron section" id="section1">
+    
+      <div class="row">
+        <p class="heading">Study Overview</h1>
+
+        <div class="col-md-6 video">
+
+          <iframe id="vid1" width="425" height="250" src="https://www.youtube.com/embed/6s0AY-ZzuCQ" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+
+        <div class="col-md-6 border-left details">
+
+          <!--clicking on the detail-item div selects the iframe above by id and changes it to that detail-item's youtube video. video link and thumbnail icon are manually set-->
+          <div class="row detail-item" onclick="document.getElementById('vid1').src='http://youtube.com/embed/6s0AY-ZzuCQ?autoplay=1&rel=0&showinfo=0&autohide=1'">
+            <div class="col-md-3 detail-thmb">
+              <img class="thmb" src="http://img.youtube.com/vi/6s0AY-ZzuCQ/0.jpg">
+            </div>
+            <div class="col-md-9 detail-desc">
+              <p class="desc">
+                While
+                <strong>looking up the weather,</strong>
+                participants were unable to ask multiple questions in single command. Having to split their question up disrupted the fluidity of the interaction.
+              </p>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="row detail-item" onclick="document.getElementById('vid1').src='http://youtube.com/embed/YD2Wqm_D5bU?autoplay=1&rel=0&showinfo=0&autohide=1'">
+            <div class="col-md-3 detail-thmb">
+              <img class="thmb" src="http://img.youtube.com/vi/YD2Wqm_D5bU/0.jpg" width="75">
+            </div>
+            <div class="col-md-9 detail-desc">
+              <p class="desc">
+                <strong>Finding a restaurant near a landmark</strong>
+                proved to be difficult, as commands like “Restaurants near Carmike 16 movie theater” were misunderstood as searches for the movie theater itself.
+              </p>
+            </div>
+          </div>
+
+          <br> 
+
+          <div class="row detail-item" onclick="document.getElementById('vid1').src='http://youtube.com/embed/KJG8bxVfw6M?autoplay=1&rel=0&showinfo=0&autohide=1'">
+            <div class="col-md-3 detail-thmb">
+              <img class="thmb" src="http://img.youtube.com/vi/KJG8bxVfw6M/0.jpg">
+            </div>
+            <div class="col-md-9 detail-desc">
+              <p class="desc">
+                While quite convenient, these systems still struggled with
+                <strong>context</strong>,
+                providing accurate but sometimes irrelevant results to participants.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>      
+
+    <div class="jumbotron section">
+    
+      <div class="row">
+        <p class="heading">Study Overview</h1>
+
+        <div class="col-md-6 video">
+          <p>Video Goes Here</p>
+        </div>
+
+        <div class="col-md-6 details border-left">
+          <p>Section Details Go Here</p>
+          <p>Section Details Go Here</p>
+          <p>Section Details Go Here</p>
+          <p>Section Details Go Here</p>
+          <p>Section Details Go Here</p>
+        </div>
+
+      </div>
+      
+    </div> 
+
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

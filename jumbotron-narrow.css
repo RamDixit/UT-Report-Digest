@@ -1,0 +1,73 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Text Styles */
+p.title { /*the title of the project*/
+  font-size: 32px !important;
+  font-weight: bold;
+  text-align: right;
+  margin: 20px 0px 0px 0px;
+}
+p.subtitle { /*the subtitle*/
+  font-size: 24px !important;
+  text-align: right;
+}
+p.credits { /*credits for the project at the top*/
+  font-size: 24px !important;
+  text-align: left;
+  margin: 30px 0px 0px 0px;
+}
+p.heading { /*section heading*/
+  font-size: 24px !important;
+  font-weight: bold;
+  text-align: center;
+}
+p.desc { /*reasonable text size for detail-desc*/
+  font-size: 12px !important;  
+}
+
+/* Container formatting */
+.container { /*grey background*/
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+
+/* section box formatting */
+.jumbotron { /*no margin between sections*/
+  margin-bottom: 0;
+}
+.jumbotron.section { /*a little padding though*/ 
+  padding: 20px 10px 30px 10px ;
+}
+
+/* section inner formatting */
+.section { /*dividing line between sections*/
+  border-radius: 0px !important;
+  border-top: 1px solid #404040;
+}
+.border-left { /*make a left border on a grid element*/
+  border-left: 1px solid #404040;
+}
+.video { /*the video should be in the center of its div*/
+  text-align: center;
+}
+.detail-item:hover { /*detail-items become darker grey on hover*/
+  background: #C7C7C7;
+}
+.detail-thmb { /*tighten spacing*/
+  padding-right: 0px;
+  width:100px;
+}
+.thmb { /*to make the youtube thumbnails smaller*/
+  width: 75px;
+}
+.detail-desc { /*tighten spacing*/
+  padding-left: 0px;
+}
+.desc { /*tighten spacing*/
+  margin-bottom: 0px !important;
+}
